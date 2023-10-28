@@ -1,3 +1,53 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
+}
+
+:root {
+  --background-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --font-family: "Poppins", sans-serif;
+  --button-color: #6c63ff;
+}
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
+  color: black;
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2;
+  color: rgb(42, 42, 42);
+}
+
+p {
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.button {
+  background: var(--button-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.button:hover {
+  background: var(--button-color);
 }
