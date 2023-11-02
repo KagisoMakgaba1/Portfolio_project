@@ -8,6 +8,11 @@ body {
   --font-family: "Poppins", sans-serif;
   --button-color: #6c63ff;
 }
+
+.active {
+  color: var(--button-color) !important;
+}
+
 .hero {
   text-align: center;
   padding: 160px 20px;
