@@ -89,20 +89,31 @@ p {
   padding: 120px 60px;
 }
 
-.about {
+.content-container {
 padding: 160px 20px;
 }
 
-.about-content {
+.content {
 margin: 30px;
 }
 
-.about h1 {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--font-family);
 }
@@ -132,7 +143,7 @@ margin: 30px;
     padding: 80px 20px;
   }
 
-  .about {
+  .content-container {
     text-align: center;
     padding: 0;
   }
